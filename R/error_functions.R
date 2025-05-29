@@ -1,6 +1,6 @@
 # 3.1. Error functions and related functions, page 857.
 
-#' Polder function P
+#' Polder function P.
 #'
 #' @param x First argument in Polder function
 #' @param y Second argument in Polder function
