@@ -9,7 +9,7 @@ M(u, Alpha)
 \arguments{
 \item{u}{First argument in the M-function function}
 
-\item{Alfpha}{Second argument in the M-function}
+\item{Alpha}{Second argument in the M-function}
 }
 \value{
 Result of the M-function

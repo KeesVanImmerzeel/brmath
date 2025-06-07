@@ -104,13 +104,13 @@ R <- function(x, y) {
 #' M-function, Chapter 3.1.4, formula 49, page 869.
 #'
 #' @param u First argument in the M-function function
-#' @param Alfpha Second argument in the M-function
+#' @param Alpha Second argument in the M-function
 #' @references Formula 49 page 869.
 #' @return Result of the M-function
 #' @export
 M <- function(u, Alpha) {
   integrand <- function(y) {(1/y)*exp(-y)*pracma::erf(Alpha*sqrt(y))}
-  res <- integrate(integrand, lower = u, upper = Inf)
+  res <- stats::integrate(integrand, lower = u, upper = Inf)
   return(res$value)
 }
 
